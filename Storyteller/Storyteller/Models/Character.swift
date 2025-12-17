@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  Character.swift
 //  Storyteller
 //
 //  Created by Dmitry Korochin on 17.12.2025.
@@ -9,10 +9,11 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class Character {
     var timestamp: Date
-    
-    init(timestamp: Date) {
-        self.timestamp = timestamp
-    }
+        
+        init(timestamp: Date) {
+            self.timestamp = timestamp
+        }
+
 }
